@@ -71,8 +71,16 @@ li{
   padding:0 10px 0 10px ;
   text-align: center;
   margin-left: 2px;
-  overflow:scroll;
+  overflow-y:scroll;
+  overflow-y:scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
+
+.txt::-webkit-scrollbar {
+    display: none;
+}
+
 .editButton,.deleteButton{
   margin-left: 5px;
   position: relative;
